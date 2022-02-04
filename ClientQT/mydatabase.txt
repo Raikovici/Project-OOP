@@ -1,0 +1,2 @@
+materii -> id nume credite 
+tab -> id nume medie 

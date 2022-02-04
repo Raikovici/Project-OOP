@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>addDB.png</file>
+        <file>addtable.png</file>
+        <file>copy.png</file>
+        <file>cut.png</file>
+        <file>db.png</file>
+        <file>find_replace.png</file>
+        <file>manual.png</file>
+        <file>paste.png</file>
+        <file>preference-icon-17.png</file>
+        <file>print.png</file>
+        <file>quit.png</file>
+        <file>run.png</file>
+        <file>save.png</file>
+        <file>save-database.png</file>
+        <file>Sign-Info-icon.png</file>
+        <file>table-687-782012.png</file>
+        <file>table-icon.png</file>
+        <file>db_flat.png</file>
+        <file>correct.png</file>
+        <file>fail.png</file>
+        <file>select-icon.png</file>
+        <file>table_delete.png</file>
+        <file>delete-db.png</file>
+        <file>new-db.png</file>
+    </qresource>
+</RCC>
