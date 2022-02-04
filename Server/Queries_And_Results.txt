@@ -1,0 +1,86 @@
+USE elevi
+Lucrati in baza de date ELEVI.
+
+---------------------------------------------
+SELECT * FROM carti
+ID NUME PRET
+1 ROMANA 5.60
+2 MATEMATICA 8.50
+3 ISTORIE 7.03
+
+---------------------------------------------
+CREATE DATABASE magazin
+Baza de date MAGAZIN a fost adaugata cu succes!
+
+---------------------------------------------
+USE magazin
+Lucrati in baza de date MAGAZIN.
+
+---------------------------------------------
+CREATE TABLE IF NOT EXISTS produse id INTEGER  PRIMARY KEY nume VARCHAR  NOT NULL pret DOUBLE  NOT NULL 
+Tabela PRODUSE a fost adaugata cu succes in MAGAZIN!
+
+---------------------------------------------
+INSERT INTO produse id nume pret VALUES 1 lapte 5.64 
+Inregistrarea a fost adaugata cu succes in PRODUSE din baza de date MAGAZIN!
+
+---------------------------------------------
+INSERT INTO produse nume pret VALUES mere 4.30
+Inregistrarea a fost adaugata cu succes in PRODUSE din baza de date MAGAZIN!
+
+---------------------------------------------
+SELECT * FROM produse
+ID NUME PRET
+1 LAPTE 5.64
+2 MERE 4.30
+
+---------------------------------------------
+SELECT * FROM produse where pret < 5.00
+ID NUME PRET
+2 MERE 4.30
+
+---------------------------------------------
+INSERT INTO produse id pret VALUES 2 6.78 
+Inregistrarea a fost adaugata cu succes in PRODUSE din baza de date MAGAZIN!
+
+---------------------------------------------
+SELECT * FROM produse
+ID NUME PRET
+1 LAPTE 5.64
+2 MERE 4.30
+3      6.78
+
+---------------------------------------------
+UPDATE produse set nume = pere where id = 3
+Tabela SET a suferit modificarile corespunzatoare!
+
+---------------------------------------------
+SELECT * FROM produse
+ID NUME PRET
+1 LAPTE 5.64
+2 MERE 4.30
+3 PERE 6.78
+
+---------------------------------------------
+ALTER TABLE produse ADD dataexpirare VARCHAR
+Tabela PRODUSE a suferit modificarile corespunzatoare!
+
+---------------------------------------------
+SELECT * FROM produse
+ID NUME PRET DATAEXPIRARE
+1 LAPTE 5.64
+2 MERE 4.30
+3 PERE 6.78
+
+---------------------------------------------
+ALTER TABLE produse drop column dataexpirare
+Tabela PRODUSE a suferit modificarile corespunzatoare!
+
+---------------------------------------------
+SELECT * FROM produse
+ID NUME PRET
+1 LAPTE 5.64
+2 MERE 4.30
+3 PERE 6.78
+
+---------------------------------------------

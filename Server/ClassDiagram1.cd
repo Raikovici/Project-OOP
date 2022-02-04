@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Condition" Collapsed="true">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEIAAgACAAAAAAAAAAAAACAAIAAAAAAAIAggAgAQ=</HashCode>
+      <FileName>Condition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDataBase" Collapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFSAGABAACAAAAhAAAEAAAAAAEAEEBBAAAAkAAAAAAA=</HashCode>
+      <FileName>CDataBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CException" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAACAACAAAAAAAIAAAAAAAAIAAEAABAAAAEAAAAAAA=</HashCode>
+      <FileName>CException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IException" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAEAAAAAAA=</HashCode>
+      <FileName>IException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CQuery" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAAAGAAAgQQABEAAAAAAAAAQBAAIAMgAAAAQA=</HashCode>
+      <FileName>CQuery.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iQuery" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAGAAAgAAABEAAAAAAAAAABAAIAEAAAAAAA=</HashCode>
+      <FileName>iQuery.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GenerateQueries" Collapsed="true">
+    <Position X="20.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAIAAAAAAAAAAAAAKAAAAACAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>iQuery.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QueryCreate" Collapsed="true">
+    <Position X="11.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAIABAAAAAAEAAAAABAAAAAAACAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>QueryCreate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QueryCreateDB" Collapsed="true">
+    <Position X="10" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAgCAAAAAgAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueryCreateDB.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QueryCreateTable" Collapsed="true">
+    <Position X="12.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAIAACABAABgAAECAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueryCreateTable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QueryDelete" Collapsed="true">
+    <Position X="1" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgABEAAAAAAAAAAAAAAAAAAACBAA=</HashCode>
+      <FileName>QueryDelete.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QueryDrop" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAABACAAAAAgABEBAAAAACAAAAAAAAAAABAAEA=</HashCode>
+      <FileName>QueryDrop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QueryInsert" Collapsed="true">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAEAAACAABAAgABEAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueryInsert.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QueryResult" Collapsed="true">
+    <Position X="17" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAACCAAAAAAAAAARAAAAJAIAAIAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>QueryResult.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuerySelect" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCSAQJAACAAAAABABECAAAAAEoACAAAAAAABBAAAA=</HashCode>
+      <FileName>QuerySelect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QueryUpdate" Collapsed="true">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAACAAABAgABEAAAAEAAAACAAAAQAAAAAAAA=</HashCode>
+      <FileName>QueryUpdate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QueryWithCondition" Collapsed="true">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAKAAAAAAAAAAAAAAAEAAAAAgAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>QueryWithCondition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QueryWithoutCondition" Collapsed="true">
+    <Position X="11.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>QueryWithoutCondition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iTCPListener" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAABAAAAAAAAAAAAAAAIAAIAAAAAAAAA=</HashCode>
+      <FileName>iTCPListener.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Server" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAiAAAAQAIABAAAAAAEAAAABAEAaABIAAggAAAAA=</HashCode>
+      <FileName>Server.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CField" Collapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACECAAIAAYggqAIQAAKACIiAEAIACAACEACACACA=</HashCode>
+      <FileName>CField.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRelationship" Collapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAABAAAAAgAAAAAAAAAACAAAAACAAAAAAAAAgAAA=</HashCode>
+      <FileName>CRelationship.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTable" Collapsed="true">
+    <Position X="18.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACggABIBICAhAhBAAFICAAAAAJAAKABAAAEECAAAAA=</HashCode>
+      <FileName>CTable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="TipCamp" Collapsed="true">
+    <Position X="17" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAABAAAAAAAAAIQAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>CField.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
